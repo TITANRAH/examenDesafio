@@ -17,18 +17,70 @@
     margin-left: 300px;
   }
 
-
-
  
+
+  @media (max-width: 1199px) {
+    #header {
+      left: -300px;
+      
+    }
+
+    .main {
+      margin-left: 0px;
+    }
+
+    .perfil {
+      
+      height: 100% !important;
+      background: url("../imgs/rah2.jpg");
+      background-size:cover;
+      padding: 0;
+      margin: 0;
+      
+    }
+
+    .perfil h1{
+      
+      margin: auto !important;
+      font-size: 5rem !important;
+      font-weight: bold;
+      text-shadow: 1px 2px 3px black;
+      color: rgb(247, 245, 245);
+    }
+
+    .perfil h4{
+    margin: 5vw 0 0 0 !important;
+    font-weight: bold ;
+    text-shadow: 1px 2px 3px black;
+    color: rgb(247, 245, 245);
+    
+    }
+
+    .imagen-nav{
+
+      height: 30vw !important;
+      width: 30vw !important;
+      margin:0 0 3em 3em;
+     
+    }
+
+    .card-img-top{
+
+      height: 30vw !important;
+      width: 30vw !important;
+      text-align: center;
+      border-radius: 20em;
+  
+    }
+  
+  }
+
 
   .acerca {
 
     font-size: 2rem;
     text-align: justify;
     padding: 2em;
-    
-    
-    
 
   }
 
@@ -40,7 +92,7 @@
     
   }
 
-  .perfil .perfil-container {
+  /* .perfil .perfil-container {
     position: relative;
     z-index: 2;
     min-width: 300px;
@@ -50,7 +102,7 @@
   .perfil-container h1, p{
     margin: 0;
     padding: 0;
-  }
+  } */
 
   .perfil h1{
     margin: 0 0 0 50vw;
@@ -155,6 +207,36 @@
     border-radius: 20em;
 
   }
+
+  .card li{
+    padding: 0;
+  }
+
+  .mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background-color: #000000;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+ 
   
  
  
