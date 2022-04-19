@@ -1,0 +1,163 @@
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    /* transition: all ease-in-out 0.5s; */
+    z-index: 9997;
+    /* transition: all 0.5s; */
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+  }
+
+  .main{
+    margin-left: 300px;
+  }
+
+
+
+ 
+
+  .acerca {
+
+    font-size: 2rem;
+    text-align: justify;
+    padding: 2em;
+    
+    
+    
+
+  }
+
+  .perfil {
+    width: 100%;
+    height: 100vh;
+    background: url("../imgs/rah2.jpg");
+    background-size: cover;
+    
+  }
+
+  .perfil .perfil-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+   
+  }
+
+  .perfil-container h1, p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .perfil h1{
+    margin: 0 0 0 50vw;
+    padding: 20rem 0 0 0;
+    font-size: 8rem;
+    text-shadow: 1px 2px 3px black;
+    color: rgb(247, 245, 245);
+  }
+
+  .perfil h4{
+
+    margin: 0 0 0 50vw;
+    text-shadow: 1px 2px 3px black;
+    color: rgb(247, 245, 245);
+    
+    
+
+  }
+
+ 
+
+  .foto{
+
+    text-align: center;
+    margin: 4em 0 0 0;
+    
+  }
+
+  
+
+  .foto h2 {
+
+    margin: 3vw 0 0 0;
+  }
+
+  .imagen-nav{
+
+    height: 10vw;
+    width: 10vw;
+    text-align: center;
+    border-radius: 20em;
+  }
+
+  .nav-menu {
+    padding: 5vw 0 0 0;
+    
+  }
+
+  .foto a{
+    color: white;
+  }
+
+  .nav-menu a{
+    color: white;
+  }
+
+  .nav-menu li, ul{
+
+    margin: 0 0 0 10px;
+    list-style: none;
+    padding: 0 0 2vw 0;
+    font-size: 1.8rem;
+  }
+
+  .redes-sociales{
+    font-size: 1.5em;
+  }
+
+  .acercaDe{
+    list-style: none;
+    text-align: left;
+    width: 98%;
+  }
+
+  .acercaDe li{
+    padding-top: 2rem;
+  }
+
+  #portafolio, #estudios{
+    padding: 2em 0 0 0;
+  }
+
+  #experienciaLaboral{
+    padding: 4em 0 0 0;
+  }
+ 
+  #contacto{
+
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center !important;
+    
+    
+  }
+
+  .card-img-top{
+
+    height: 10vw;
+    width: 10vw;
+    text-align: center;
+    border-radius: 20em;
+
+  }
+  
+ 
+ 
+
+  
+
