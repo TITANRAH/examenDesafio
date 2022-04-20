@@ -1,18 +1,5 @@
 
-#header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 300px;  
-    padding: 0 15px;
-    background: #040b14;
-    overflow-y: auto;
-  }
-
-  .main{
-    margin-left: 300px;
-  }
+  /* movil */
 
   @media (max-width: 1199px) {
     #header {
@@ -95,14 +82,26 @@
   
   }
 
+  /* fin movil */
+
   
 
-  .acerca {
+ 
+/* escritorio */
 
-    font-size: 2rem;
-    text-align: justify;
-    padding: 2em;
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;  
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+  }
 
+  .main{
+    margin-left: 300px;
   }
 
   .perfil {
@@ -172,6 +171,13 @@
     font-size: 1.5em;
   }
 
+  .acerca {
+
+    font-size: 2rem;
+    text-align: justify;
+    padding: 2em;
+
+  }
   .acercaDe{
     list-style: none;
     text-align: left;
@@ -186,22 +192,17 @@
     padding: 2em 0 0 0;
   }
 
- 
-
- 
+  #portafolio{
+    width: 98%;
+    margin: auto;
+  }
 
   #portafolio img{
     width: 50%;
     text-align: center;
     box-shadow: 0px 5px 15px black;
     margin-top: 3em;
-    
-    
-  }
 
-  #portafolio{
-    width: 98%;
-    margin: auto;
   }
 
   #portafolio h3{
@@ -231,6 +232,7 @@
 
   }
 
+  /* fin escritorio */
   
 
  
