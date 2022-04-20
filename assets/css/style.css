@@ -194,6 +194,11 @@
     
   }
 
+  #portafolio{
+    width: 98%;
+    margin: auto;
+  }
+
   #portafolio h3{
     margin-bottom: 1em ;
   }
