@@ -87,6 +87,11 @@
       border-radius: 50px;
       cursor: pointer;
     }
+
+    #portafolio{
+      width: 92% !important;
+      margin: auto !important;
+    }
   
   }
 
