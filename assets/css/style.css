@@ -92,18 +92,6 @@
     
   }
 
-  /* .perfil .perfil-container {
-    position: relative;
-    z-index: 2;
-    min-width: 300px;
-   
-  }
-
-  .perfil-container h1, p{
-    margin: 0;
-    padding: 0;
-  } */
-
   .perfil h1{
     margin: 0 0 0 50vw;
     padding: 20rem 0 0 0;
@@ -117,21 +105,13 @@
     margin: 0 0 0 50vw;
     text-shadow: 1px 2px 3px black;
     color: rgb(247, 245, 245);
-    
-    
 
   }
-
- 
 
   .foto{
-
     text-align: center;
     margin: 4em 0 0 0;
-    
   }
-
-  
 
   .foto h2 {
 
@@ -183,6 +163,10 @@
 
   #portafolio, #estudios{
     padding: 2em 0 0 0;
+  }
+
+  #portafolio{
+    margin: 0 1em 0 0;
   }
 
   #experienciaLaboral{
